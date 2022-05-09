@@ -30,6 +30,6 @@ public class ScoreR : MonoBehaviour
         Scorelist.Add(Player.ScoreP);
         Scorelist.Sort((a, b) => b - a);
         Rank.text = ("スコアランキング");
-        Score.text = "1 : " + Scorelist[0] + "\n2 : " + Scorelist[1] + "\n3 : " + Scorelist[2] + "\n4 : " + Scorelist[3] + "\n5 : " + Scorelist[4];
+        Score.text = "1位 : " + Scorelist[0] + "点\n2位 : " + Scorelist[1] + "点\n3位 : " + Scorelist[2] + "点\n4位 : " + Scorelist[3] + "点\n5位 : " + Scorelist[4]+ "点";
     }
 }
